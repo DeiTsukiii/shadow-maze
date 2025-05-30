@@ -1,6 +1,6 @@
 # Shadow Maze
 
-2D top-down horror game where an AI hunts the player, who must collect goals and escape.
+2D top-down horror game where an AI hunts the player.
 
 ## 📌 About The Game
 
