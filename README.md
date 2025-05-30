@@ -34,6 +34,9 @@ A hostile entity patrols the maze and has a limited field of vision.
 * If you manage to break line of sight and remain hidden for a few seconds, the enemy will return to its patrol routine.
 * If the enemy catches you, you restart!
 
+### 🚀 Test the game
+[Play online](https://deitsuki.netlify.app/invalid-url)
+
 ## 🛠️ Development
 
 This game is built using:
