@@ -65,7 +65,7 @@ export default class UIScene extends Phaser.Scene {
         const title = this.add.text(
             this.cameras.main.width / 2,
             this.cameras.main.height / 2 - 100,
-            'AI Chase Game',
+            'Shadow Maze',
             {
                 font: '100px Monospace',
                 fill: '#ffffff'
