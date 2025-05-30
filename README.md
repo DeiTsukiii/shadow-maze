@@ -35,7 +35,7 @@ A hostile entity patrols the maze and has a limited field of vision.
 * If the enemy catches you, you restart!
 
 ### 🚀 Test the game
-[Play online](https://deitsuki.netlify.app/invalid-url)
+[Play online](https://deitsuki.netlify.app/shadow-maze)
 
 ## 🛠️ Development
 
