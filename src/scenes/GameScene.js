@@ -441,7 +441,6 @@ export default class GameScene extends Phaser.Scene {
         }
 
         body.setVelocity(vx, vy);
-        console.log(body.speed)
 
         const dx = this.obj.x - this.enemy.x;
         const dy = this.obj.y - this.enemy.y;
