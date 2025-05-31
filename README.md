@@ -23,10 +23,11 @@ Shadow Maze is a top-down, stealth-horror puzzle game built with Phaser 3. Playe
 3.  Reach the **Exit Portal** to win the game!
 
 ### 🕹️ Controls
-* **W** or **Z**: Move Up
+* `W` or `Z`: Move Up
 * **S**: Move Down
-* **A** or **Q**: Move Left
-* **D**: Move Right
+* `A` or `Q`: Move Left
+* `D`: Move Right
+* `F`: Toggle flashlight
 
 ### 👺 The Enemy
 A hostile entity patrols the maze and has a limited field of vision.
@@ -42,20 +43,6 @@ A hostile entity patrols the maze and has a limited field of vision.
 This game is built using:
 * **Phaser 3**: A fast, free, and fun open-source HTML5 game framework.
 * **EasyStar.js**: A lightweight A\* pathfinding library for grid-based games.
-
-### 🌳 Project Structure
-
-```
-├── src/
-│   ├── assets/           # Game images and audio files
-│   ├── scenes/           # Phaser game scenes (GameScene, UIScene)
-│   ├── config.js         # Game configuration
-│   └── main.js           # Main game entry point
-├── index.html            # Main HTML file for the game
-├── library/
-│   └── phaser.js         # Phaser library
-└── README.md             # This file
-```
 
 ## 🌟 Contributing
 
