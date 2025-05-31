@@ -24,6 +24,11 @@ export default class GameScene extends Phaser.Scene {
 
         this.load.audio('jumpscare', 'src/assets/jumpscare.wav');
         this.load.audio('exitOpen', 'src/assets/exitOpen.wav');
+
+        this.load.audio('step1', 'src/assets/step1.wav');
+        this.load.audio('step2', 'src/assets/step2.wav');
+        this.load.audio('step3', 'src/assets/step3.wav');
+
         this.load.audio('goal', 'src/assets/goal.mp3');
         this.load.audio('music', 'src/assets/music.mp3');
     }
@@ -423,9 +428,20 @@ export default class GameScene extends Phaser.Scene {
             const len = Math.sqrt(vx * vx + vy * vy);
             vx = (vx / len) * speed;
             vy = (vy / len) * speed;
+
+            const isStepPlaying =
+                this.sound.get('step1')?.isPlaying ||
+                this.sound.get('step2')?.isPlaying ||
+                this.sound.get('step3')?.isPlaying;
+
+            if (!isStepPlaying) {
+                const rdmStep = Math.floor(Math.random() * 3) + 1;
+                this.sound.play(`step${rdmStep}`, { volume: 0.2 });
+            }
         }
 
         body.setVelocity(vx, vy);
+        console.log(body.speed)
 
         const dx = this.obj.x - this.enemy.x;
         const dy = this.obj.y - this.enemy.y;
