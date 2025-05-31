@@ -4,16 +4,16 @@
 
 ## 📌 About The Game
 
-Shadow Maze is a top-down, stealth-horror puzzle game built with Phaser 3. Players must navigate a procedurally generated, dark maze, collect all the scattered artifacts, and then find the elusive exit before a relentless enemy catches them. The game emphasizes stealth and environmental awareness, as light sources are limited and the enemy's vision is a constant threat. Can you collect all the goals and escape the **Shadow Maze**?
+Shadow Maze is a top-down, stealth-horror puzzle game built with Phaser 3. Players must navigate a dark maze, collect all the scattered artifacts, and then find the elusive exit before a relentless enemy catches them. The game emphasizes stealth and environmental awareness, as light sources are limited and the enemy's vision is a constant threat. Can you collect all the goals and escape the **Shadow Maze**?
 
 ## 🎮 Key Features
 
-* **Procedurally Generated Mazes**: Each playthrough offers a unique maze layout, ensuring high replayability.
-* **Stealth-Horror Gameplay**: Evade a relentless enemy with limited vision in a dark environment.
-* **Dynamic Lighting & Vision Cones**: Experience immersive darkness and strategically use your flashlight while avoiding the enemy's gaze.
-* **Collectible Objectives**: Find and collect all the hidden keys to unlock the exit.
-* **Atmospheric Audio**: Immersive sound effects and dynamic music that reacts to gameplay intensity.
-* **Simple Controls**: Easy to pick up and play.
+* Smart Enemy AI: Follows you using pathfinding.
+* Raycast Lighting & Vision: Stay out of sight and use your flashlight wisely.
+* Stealth-Horror Gameplay: Sneak, hide, and survive.
+* Collect & Escape: Find all keys to open the exit.
+* Dynamic Audio: Tense music and sounds that react to your actions.
+* Simple Controls: Easy to learn, hard to master.
 
 ## ℹ️ How to Play
 
